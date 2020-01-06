@@ -1,0 +1,2 @@
+BOOT_SUPPRESSED (?:exceptionOne?|somethingElseException?)
+BOOT_MINOR (?:exceptionTwo?|somethingElseExceptionTwo?)

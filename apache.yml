@@ -1,0 +1,14 @@
+# Module: apache
+# Docs: https://www.elastic.co/guide/en/beats/filebeat/7.3/filebeat-module-apache.html
+
+- module: apache
+  # Access logs
+  access:
+    enabled: true
+    var.paths: ["D:/apache/tomcat/logs/*access_log*", "D:/apache/tomcat/logs/*catalina*"]
+        
+
+  # Error logs
+  error:
+    enabled: false
+    #var.paths:
